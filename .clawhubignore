@@ -1,0 +1,41 @@
+# Files excluded from `clawhub skill publish`.
+# See https://documentation.openclaw.ai/clawhub/skill-format
+
+# Virtual envs — large, machine-specific, leak the publisher's username
+# and absolute paths via .venv/Scripts/activate*.
+.venv/
+venv/
+env/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Test / coverage caches
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Tooling caches
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# VCS / editors / OS
+.git/
+.gitignore
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Local secrets / scratch
+.env
+.env.*
+*.log
