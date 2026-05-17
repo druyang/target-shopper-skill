@@ -4,7 +4,7 @@ Unofficial skill for shopping on Target.com. Search products, check
 per-store stock near a ZIP, and hand the user a one-click pre-populated
 guest cart — all without logging in.
 
-![demo](demo.gif)
+![demo](demo.webp)
 
 ## What it does / doesn't do
 
@@ -49,10 +49,9 @@ directly with `/target-com-shopper`.
 - **Cart links contain a bearer token.** Treat them like one-time share
   links — ~24h of cart-write access to whoever holds the URL.
 
-See [SKILL.md](target-shopping/SKILL.md) for the full reference, every
-script's usage, environment variables, and endpoint notes.
+See [SKILL.md](SKILL.md) for the full reference, every script's usage,
+environment variables, and endpoint notes.
 
 ## License
 
-[MIT-0](target-shopping/LICENSE) — do whatever you want, no attribution
-required.
+[MIT-0](LICENSE) — do whatever you want, no attribution required.
